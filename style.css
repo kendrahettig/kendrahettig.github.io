@@ -109,9 +109,10 @@ p {
 .showcase-container {
     position: relative;
     width: 100%;
-    height: 80vh;
+    height: 85vh;
     background: url('khlogo.png') no-repeat center center/cover; 
-    background-size: contain; 
+    background-size: contain;
+    margin-bottom: 8.5rem;
   }
 
   .showcase-text {
@@ -119,7 +120,7 @@ p {
       display: flex;
       flex-direction: column;
       text-align: center;
-      top: 70%;
+      top: 78%;
       left: 41%;
   }
 
@@ -143,5 +144,21 @@ p {
   }
 
   .tagline-container {
+      background: #9D7F52;
+      padding-top: 6rem;
+      padding-bottom: 6rem;
+      border-bottom: 0.188rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+  }
 
+  .tagline-container h3 {
+      font-family: "Avenir Light";
+      font-size: 3.75rem;
+      color: white; 
+      text-align: center;
+      line-height: 1.25;
+      letter-spacing: 0.188rem;
+      text-shadow: 0.125rem 0.125rem 0.25rem rgba(0,0,0,0.65)
   }
