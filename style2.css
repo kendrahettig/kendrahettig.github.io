@@ -105,3 +105,37 @@ p {
     src: url(./Fonts/northrow-webfont.woff);
 }
 
+h1 {
+    text-align: center;
+    margin: 3rem;
+    font-family: "navi";
+    text-shadow: 0.125rem 0.125rem 0.25rem rgba(0,0,0,0.40)
+}
+
+.about-container {
+    background: #9D7F52;
+    padding-top: 0.525rem;
+    padding-bottom: 0.525rem;
+    border-bottom: 0.188rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 3rem 7rem;
+}
+
+.about-container p {
+    font-family: "Avenir Light";
+    font-size: 3rem;
+    color: white; 
+    text-align: justify;
+    line-height: 1.25;
+    letter-spacing: 0.063rem;
+    text-shadow: 0.125rem 0.125rem 0.25rem rgba(0,0,0,0.4);
+    margin: 2rem;
+}
+
+.footer {
+    text-align: center;
+    letter-spacing: 0.03rem;
+    font-size: 1.1rem;
+  }
