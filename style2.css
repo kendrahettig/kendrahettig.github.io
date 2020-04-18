@@ -121,6 +121,7 @@ h1 {
     flex-direction: row;
     justify-content: center;
     margin: 3rem 7rem;
+    box-shadow: 0rem 0.125rem 0.625rem 0.063rem rgba(0,0,0,0.45);
 }
 
 .about-container p {
