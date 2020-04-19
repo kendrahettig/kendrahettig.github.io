@@ -1,0 +1,157 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+    CSS RESET for browsers*/
+
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed, 
+    figure, figcaption, footer, header, hgroup, 
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure, 
+    footer, header, hgroup, menu, nav, section {
+        display: block;
+    }
+    body {
+        line-height: 1;
+    }
+    ol, ul {
+        list-style: none;
+    }
+    blockquote, q {
+        quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+    
+    * {
+        box-sizing: border-box;
+        margin: 0rem;
+        padding: 0rem;
+    }
+    
+    body {
+        font-family: "Avenir Light";
+        -webkit-font-smoothing: antialiasded;
+        background: #f5f0ea;
+        color: black;
+    }
+
+    /* Navigation Bar */
+    .navigation a:link, a:visited {
+    color: black;
+    padding: 1.875rem 3.125rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    }
+  
+    .navigation a:hover, a:active {
+    color: rgb(230,5,140);
+    }
+
+  .navigation ul {
+    list-style-type: none;
+    margin: 0rem;
+    padding: 0rem;
+    text-align: center;
+    font-family: "navi";
+    font-size: 2.5rem;
+    letter-spacing: 0.063rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navigation li {
+    display: inline;
+}
+
+p { 
+    margin: 0.5rem 0rem;
+}
+
+/* Fonts */
+@font-face {
+    font-family: "boosie";
+    src: url(./Fonts/moniquescript-regular-webfont.woff);
+}
+
+@font-face {
+    font-family: "navi";
+    src: url(./Fonts/northrow-webfont.woff);
+}
+
+h1 {
+    text-align: center;
+    margin: 3rem;
+    font-family: "navi";
+    text-shadow: 0.125rem 0.125rem 0.25rem rgba(0,0,0,0.40)
+}
+
+.portfolio-container {
+    padding-top: 0rem;
+    padding-bottom: 0.525rem;
+    border-bottom: 0.188rem;
+    justify-content: center;
+    margin: 0rem 0.063rem 2rem 0.063rem;
+    padding: 1rem;
+}
+
+.portfolio-container h2, h3, h4, h5 {
+    font-family: "Avenir";
+    font-weight: 600;
+    font-size: 3rem;
+    color: black;
+    line-height: 1.25rem;
+    letter-spacing: 0.063rem;
+    margin: 1rem 0rem 0rem 4rem;
+}
+
+.portfolio-list a:link, a:visited {
+    color: black;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    }
+  
+.portfolio-list a:hover, a:active {
+    color: rgb(230,5,140);
+    }
+
+.portfolio-list ul {
+    list-style-type: none;
+    text-align: left;
+    font-family: "Avenir Light";
+    font-size: 2.5rem;
+    letter-spacing: 0.063rem;
+    margin: 1rem 0rem 0rem 4rem;
+}
+
+.portfolio-list li {
+    line-height: 1.5rem;
+}
