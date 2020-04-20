@@ -61,34 +61,28 @@
     }
 
     /* Navigation Bar */
-a:link, a:visited {
-    color: black;
-    padding: 1.875rem 3.125rem;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-  }
-  
-  a:hover, a:active {
-    color: rgb(230,5,140);
-  }
-
-  ul {
-    list-style-type: none;
-    margin: 0rem;
-    padding: 0rem;
-    text-align: center;
-    font-family: "navi";
-    font-size: 2.5rem;
-    letter-spacing: 0.063rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-li {
-    display: inline;
-}
+    a:link, a:visited {
+        color: black;
+        padding: 1.875rem 3.125rem;
+        text-decoration: none;
+      }
+      
+      a:hover, a:active {
+        color: rgb(230,5,140);
+      }
+    
+      ul {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        list-style-type: none;
+        margin: 0rem;
+        padding: 1.875rem 3.125rem;
+        font-family: "navi";
+        font-size: 2.5rem;
+        letter-spacing: 0.063rem;
+    }
+    
 
 p { 
     margin: 0.5rem 0rem;
@@ -114,12 +108,10 @@ h1 {
 
 .about-container {
     background: #9D7F52;
-    padding-top: 0.525rem;
-    padding-bottom: 0.525rem;
-    border-bottom: 0.188rem;
     display: flex;
-    flex-direction: row;
     justify-content: center;
+    align-items: center;
+    text-align: left;
     margin: 3rem 7rem;
     box-shadow: 0rem 0.125rem 0.625rem 0.063rem rgba(0,0,0,0.45);
 }
