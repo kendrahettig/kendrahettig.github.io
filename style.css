@@ -83,6 +83,21 @@ a:link, a:visited {
     letter-spacing: 0.063rem;
 }
 
+@media only screen and (max-width: 600px) {
+  ul {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style-type: none;
+    font-family: "navi";
+    font-size: 4rem;
+    letter-spacing: 0.063rem;
+    width: 100%;
+    line-height: 1.25rem;
+  }
+}
+
 p { 
     margin: 0.5rem 0rem;
 }
@@ -106,6 +121,17 @@ p {
     background: url('khlogo.png') no-repeat center center/cover; 
     background-size: contain;
     margin-bottom: 8.5rem;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .showcase-container {
+      position: relative;
+      width: 100%;
+      height: 50vh;
+      background: url('khlogo.png') no-repeat center center/cover; 
+      background-size: contain;
+      margin-bottom: 8.5rem;
+    }
   }
 
   .showcase-text {
