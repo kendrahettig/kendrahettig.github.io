@@ -82,6 +82,20 @@
         font-size: 2.5rem;
         letter-spacing: 0.063rem;
     }
+
+    @media only screen and (max-width: 600px) {
+        .navigation ul {
+          position: static;
+          display: block;
+          flex-direction: column;
+          justify-content: center;
+          list-style-type: none;
+          font-family: "navi";
+          letter-spacing: 0.063rem;
+          width: 100%;
+          line-height: 2rem;
+        }
+      }
     
     p { 
         margin: 0.5rem 0rem;
@@ -115,6 +129,14 @@
         margin: 0rem 7rem 2rem 7rem;
         padding: 2rem;
     }
+
+    @media only screen and (max-width: 600px) {
+        .resume-container {
+            margin: 2rem;
+            background: rgba(255,255,255,0.6);
+            box-shadow: 0rem 0.125rem 0.625rem 0.063rem rgba(0,0,0,0.45);
+        }
+      } 
     
     .resume-container h2, h3, h4, h5 {
         font-family: "Avenir";
