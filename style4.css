@@ -112,6 +112,11 @@ p {
     src: url(./Fonts/northrow-webfont.woff);
 }
 
+@font-face {
+    font-family: "Avenir Light" "Avenir";
+    src: url(./Fonts/avenir.woff);
+  }
+  
 h1 {
     text-align: center;
     margin: 3rem;
