@@ -68,7 +68,7 @@ a:link, a:visited {
   }
   
   a:hover, a:active {
-    color: rgb(230,5,140);
+    color: #F95700;
   }
 
   ul {
