@@ -68,7 +68,7 @@ a:link, a:visited {
   }
   
   a:hover, a:active {
-    color: #F95700;
+    color: #005f29;
   }
 
   ul {
@@ -168,7 +168,7 @@ p {
   }
 
   .tagline-container {
-      background: #f0793a;
+      background: #003d1a;
       padding: 6rem 0rem;
       display: flex;
       flex-direction: row;
