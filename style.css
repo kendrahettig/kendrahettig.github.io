@@ -149,7 +149,7 @@ p {
 
   .showcase-text h1 {
       font-family: "Avenir";
-      color: #BDBDBD;
+      color: #C5C5C4;
       font-size: 4.688rem;
       line-height: 1.25;
       margin: 0 0 2rem;
@@ -227,7 +227,7 @@ p {
     color: #000;; 
     width: 100%;
     border: 0.063rem rgba(255,255,255,0.9);
-    background: #ECEDEF;
+    background: #fefefe;
     margin: 0 0 1.5rem;
     padding: 1rem;
     box-shadow: 0rem 0.125rem 0.625rem 0.063rem rgba(0,0,0,0.40);
@@ -247,14 +247,14 @@ p {
 
   #contact textarea {
       padding-bottom: 6rem;
-      background:#ECEDEF;
+      background:#fefefe;
   }
   
   #contact button[type="submit"] {
     font-family: "navi";
     width: 100%;
     border: none;
-    background:#ECEDEF;
+    background:#fefefe;
     color: #000;
     margin: 0 0 1rem;
     padding: 0.3rem;
