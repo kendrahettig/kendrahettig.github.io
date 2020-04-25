@@ -84,6 +84,11 @@ a:link, a:visited {
 }
 
 @media only screen and (max-width: 600px) {
+  .nav-item a {
+    display: block;
+    padding: 0.063rem;
+}
+
   ul {
     position: static;
     display: flex;
