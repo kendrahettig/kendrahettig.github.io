@@ -56,7 +56,7 @@ table {
 body {
     font-family: "Avenir Light";
     -webkit-font-smoothing: antialiasded;
-    background: #f5f0ea;
+    background: #F3F5F8;
     color: black;
 }
 
@@ -91,7 +91,6 @@ a:link, a:visited {
     justify-content: center;
     list-style-type: none;
     font-family: "navi";
-    font-size: 4rem;
     letter-spacing: 0.063rem;
     width: 100%;
     line-height: 2rem;
@@ -123,7 +122,7 @@ p {
     position: relative;
     width: 100%;
     height: 85vh;
-    background: url('khlogo.png') no-repeat center center/cover; 
+    background: url('graylogo.png') no-repeat center center/cover; 
     background-size: contain;
     margin-bottom: 8.5rem;
   }
@@ -133,7 +132,7 @@ p {
       position: relative;
       width: 100%;
       height: 50vh;
-      background: url('khlogo.png') no-repeat center center/cover; 
+      background: url('graylogo.png') no-repeat center center/cover; 
       background-size: contain;
       margin-bottom: 8.5rem;
     }
@@ -145,12 +144,12 @@ p {
       flex-direction: column;
       text-align: center;
       top: 68%;
-      left: 41%;
+      left: 38%;
   }
 
   .showcase-text h1 {
-      font-family: "Avenir Light";
-      color: rgb(168,143,106);
+      font-family: "Avenir";
+      color: #BDBDBD;
       font-size: 4.688rem;
       line-height: 1.25;
       margin: 0 0 2rem;
@@ -176,7 +175,7 @@ p {
   }
 
   .tagline-container h3 {
-      font-family: "Avenir Light";
+      font-family: "Avenir";
       font-size: 3.75rem;
       color: white; 
       text-align: center;
@@ -186,7 +185,7 @@ p {
   }
 
   .contact-container {
-      background: #f5f0ea;
+      background: #F3F5F8;
       padding-top: 6rem;
       padding-bottom: 6rem;
       border-bottom: 0.188rem;
@@ -197,7 +196,7 @@ p {
 
   .contact-container h4 {
       font-family: "navi";
-      color: #9D7F52; 
+      color: #000; 
       font-size: 5rem;
       text-shadow: 0.125rem 0.125rem 0.25rem rgba(0,0,0,0.65);
       line-height: 1.25;
@@ -224,18 +223,18 @@ p {
   #contact textarea,
   #contact button[type="submit"] {
     font-size: 1rem;
-    font-family: "Avenir Light";
-    color: white; 
+    font-family: "Avenir";
+    color: #000;; 
     width: 100%;
     border: 0.063rem rgba(255,255,255,0.9);
-    background: #A88F6A;
+    background: #ECEDEF;
     margin: 0 0 1.5rem;
     padding: 1rem;
-    box-shadow: 0rem 0.125rem 0.625rem 0.063rem rgba(0,0,0,0.20);
+    box-shadow: 0rem 0.125rem 0.625rem 0.063rem rgba(0,0,0,0.40);
   }
   
   #contact {
-    background-color: rgba(255,255,255,0.1);
+    background-color: rgba(255,255,255,0.6);
     padding: 4rem 1.5rem;
     margin: 0rem;
     box-shadow: 0rem 0.125rem 0.625rem 0.063rem rgba(0,0,0,0.45);
@@ -248,15 +247,15 @@ p {
 
   #contact textarea {
       padding-bottom: 6rem;
-      background: #A88F6A;
+      background:#ECEDEF;
   }
   
   #contact button[type="submit"] {
     font-family: "navi";
     width: 100%;
     border: none;
-    background: #A88F6A;
-    color: #FFF;
+    background:#ECEDEF;
+    color: #000;
     margin: 0 0 1rem;
     padding: 0.3rem;
     font-size: 2rem;
@@ -274,19 +273,19 @@ p {
   }
   
   ::-webkit-input-placeholder {
-    color: #fff;
+    color: #000;
   }
   
   :-moz-placeholder {
-    color: #fff;
+    color: #000;
   }
   
   ::-moz-placeholder {
-    color: #fff;
+    color: #000;
   }
   
   :-ms-input-placeholder {
-    color: #fff;
+    color: #000;
   }
 
   .footer {

@@ -54,9 +54,9 @@
     }
     
     body {
-        font-family: "Avenir Light";
+        font-family: "Avenir";
         -webkit-font-smoothing: antialiasded;
-        background: #f5f0ea;
+        background: #F3F5F8;
         color: black;
     }
 
@@ -115,8 +115,8 @@ p {
 @font-face {
     font-family: "Avenir Light" "Avenir";
     src: url(./Fonts/avenir.woff);
-  }
-  
+}
+
 h1 {
     text-align: center;
     margin: 3rem;
@@ -183,7 +183,7 @@ h1 {
         margin: 0;
     }
   }
-  
+
 .portfolio-list li {
     line-height: 2rem;
 }

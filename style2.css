@@ -54,9 +54,9 @@
     }
     
     body {
-        font-family: "Avenir Light";
+        font-family: "Avenir";
         -webkit-font-smoothing: antialiasded;
-        background: #f5f0ea;
+        background: #F3F5F8;
         color: black;
     }
 
@@ -115,7 +115,7 @@ p {
 @font-face {
     font-family: "Avenir Light" "Avenir";
     src: url(./Fonts/avenir.woff);
-  }
+}
 
 h1 {
     text-align: center;
@@ -125,7 +125,7 @@ h1 {
 }
 
 .about-container {
-    background: #9D7F52;
+    background: rgba(255,255,255,0.6);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -137,7 +137,7 @@ h1 {
 @media only screen and (max-width: 600px) {
     .about-container {
         margin: 2rem;
-        background: #9D7F52;
+        background: rgba(255,255,255,0.1);
         box-shadow: 0rem 0.125rem 0.625rem 0.063rem rgba(0,0,0,0.45);
     }
   }
@@ -145,11 +145,10 @@ h1 {
 .about-container p {
     font-family: "Avenir Light";
     font-size: 3rem;
-    color: white; 
+    color: black; 
     text-align: justify;
     line-height: 1.25;
-    letter-spacing: 0.063rem;
-    text-shadow: 0.125rem 0.125rem 0.25rem rgba(0,0,0,0.4);
+    letter-spacing: 0.063rem;;
     margin: 2rem;
 }
 

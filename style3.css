@@ -56,7 +56,7 @@
     body {
         font-family: "Avenir";
         -webkit-font-smoothing: antialiasded;
-        background: #f5f0ea;
+        background: #F3F5F8;
         color: black;
     }
     
@@ -82,7 +82,7 @@
         font-size: 2.5rem;
         letter-spacing: 0.063rem;
     }
-
+    
     @media only screen and (max-width: 600px) {
         .navigation ul {
           position: static;
@@ -96,7 +96,7 @@
           line-height: 2rem;
         }
       }
-    
+
     p { 
         margin: 0.5rem 0rem;
     }
@@ -115,8 +115,8 @@
     @font-face {
         font-family: "Avenir Light" "Avenir";
         src: url(./Fonts/avenir.woff);
-      }
-      
+    }
+
     h1 {
         text-align: center;
         margin: 3rem;
@@ -141,7 +141,7 @@
             background: rgba(255,255,255,0.6);
             box-shadow: 0rem 0.125rem 0.625rem 0.063rem rgba(0,0,0,0.45);
         }
-      } 
+      }    
     
     .resume-container h2, h3, h4, h5 {
         font-family: "Avenir";
