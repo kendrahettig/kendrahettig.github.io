@@ -61,46 +61,46 @@
     }
 
     /* Navigation Bar */
-    .navigation a:link, a:visited {
+    a:link, a:visited {
         color: black;
         padding: 1.875rem 3.125rem;
         text-decoration: none;
-      }
-  
-    .navigation a:hover, a:active {
+       }
+      
+      a:hover, a:active {
         color: #005f29;
+      }
+    
+      .navigation ul {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        list-style-type: none;
+        margin: 0rem;
+        padding: 1.875rem 3.125rem;
+        font-family: "navi";
+        font-size: 2.5rem;
+        letter-spacing: 0.063rem;
     }
+    
+    @media only screen and (max-width: 600px) {
+        .nav-item a {
+            display: block;
+            padding: 0.063rem;
+        }
 
-  .navigation ul {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    list-style-type: none;
-    margin: 0rem;
-    padding: 1.875rem 3.125rem;
-    font-family: "navi";
-    font-size: 2.5rem;
-    letter-spacing: 0.063rem;
-}
-
-@media only screen and (max-width: 600px) {
-    .nav-item a {
-        display: block;
-        padding: 0.063rem;
-    }
-
-    .navigation ul {
-      position: static;
-      display: block;
-      flex-direction: column;
-      justify-content: center;
-      list-style-type: none;
-      font-family: "navi";
-      letter-spacing: 0.063rem;
-      width: 100%;
-      line-height: 2rem;
-    }
-  }
+        .navigation ul {
+          position: static;
+          display: block;
+          flex-direction: column;
+          justify-content: center;
+          list-style-type: none;
+          font-family: "navi";
+          letter-spacing: 0.063rem;
+          width: 100%;
+          line-height: 2rem;
+        }
+      }
 
 p { 
     margin: 0.5rem 0rem;
@@ -164,9 +164,8 @@ h1 {
 .portfolio-list a:link, a:visited {
     color: black;
     padding: 0;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
-    display: inline-block;
     }
   
 .portfolio-list a:hover, a:active {
