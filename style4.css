@@ -144,7 +144,7 @@ h1 {
     }
   }
 
-.portfolio-container h2, h3, h4, h5 {
+.portfolio-container h2 {
     font-family: "Avenir";
     font-weight: 600;
     font-size: 3rem;
@@ -152,6 +152,16 @@ h1 {
     line-height: 1.25rem;
     letter-spacing: 0.063rem;
     margin: 1rem 0rem 0rem 4rem;
+}
+
+.portfolio-container h3 {
+    font-family: "Avenir";
+    font-weight: 600;
+    color: black;
+    line-height: 1.25rem;
+    letter-spacing: 0.063rem;
+    margin: 1rem 0rem;
+    font-weight: 550;
 }
 
 @media only screen and (max-width: 600px) {
