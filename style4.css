@@ -54,7 +54,7 @@
     }
     
     body {
-        font-family: "Avenir";
+        font-family: "Avenir", "Arial";
         -webkit-font-smoothing: antialiasded;
         background: #F3F5F8;
         color: black;
@@ -145,7 +145,7 @@ h1 {
   }
 
 .portfolio-container h2 {
-    font-family: "Avenir";
+    font-family: "Avenir", "Arial";
     font-weight: 600;
     font-size: 3rem;
     color: black;
@@ -155,7 +155,7 @@ h1 {
 }
 
 .portfolio-container h3 {
-    font-family: "Avenir";
+    font-family: "Avenir", "Arial";
     font-weight: 600;
     color: black;
     line-height: 1.25rem;
@@ -185,7 +185,7 @@ h1 {
 .portfolio-list ul {
     list-style-type: none;
     text-align: left;
-    font-family: "Avenir Light";
+    font-family: "Avenir", "Arial";
     font-size: 2.5rem;
     letter-spacing: 0.063rem;
     margin: 1rem 0rem 0rem 4rem;

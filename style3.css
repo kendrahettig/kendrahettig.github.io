@@ -54,7 +54,7 @@
     }
     
     body {
-        font-family: "Avenir";
+        font-family: "Avenir", "Arial";
         -webkit-font-smoothing: antialiasded;
         background: #F3F5F8;
         color: black;
@@ -149,7 +149,7 @@
       }    
     
     .resume-container h2, h3, h4, h5 {
-        font-family: "Avenir";
+        font-family: "Avenir", "Arial";
         font-weight: 600;
         font-size: 3rem;
         color: black;
@@ -160,7 +160,7 @@
     }
 
     .resume-container p {
-        font-family: "Avenir Light";
+        font-family: "Avenir", "Arial";
         font-size: 3rem;
         color: black;
         line-height: 1.5rem;
@@ -173,7 +173,7 @@
       margin: 0rem;
       padding: 0rem;
       text-align: left;
-      font-family: "Avenir Light";
+      font-family: "Avenir", "Arial";
       font-size: 2.5rem;
       letter-spacing: 0.063rem;
   }
