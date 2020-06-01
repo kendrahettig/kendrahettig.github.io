@@ -190,7 +190,8 @@ p {
   }
 
   .contact-container {
-      background: #F3F5F8;
+    background: url('forestbg.jpg') no-repeat; 
+    background-size: cover;
       padding-top: 6rem;
       padding-bottom: 6rem;
       border-bottom: 0.188rem;
