@@ -78,7 +78,6 @@
         margin: 0rem;
         padding: 1.875rem 3.125rem;
         font-family: "navi";
-        font-size: 2.5rem;
         letter-spacing: 0.063rem;
     }
     
@@ -134,7 +133,7 @@ h1 {
     justify-content: left;
     align-items: left;
     text-align: left;
-    padding: 0.063rem 2rem 5rem 2rem;
+    margin: 1rem 5rem;
 }
 
 @media only screen and (max-width: 600px) {
@@ -146,7 +145,6 @@ h1 {
 .portfolio-container h2 {
     font-family: "Avenir", "Arial";
     font-weight: 600;
-    font-size: 3rem;
     color: black;
     line-height: 1.25rem;
     letter-spacing: 0.063rem;
@@ -185,7 +183,6 @@ h1 {
     list-style-type: none;
     text-align: left;
     font-family: "Avenir", "Arial";
-    font-size: 2.5rem;
     letter-spacing: 0.063rem;
     margin: 1rem 0rem 0rem 4rem;
 }
@@ -200,10 +197,3 @@ h1 {
 .portfolio-list li {
     line-height: 2rem;
 }
-
-.footer {
-    text-align: center;
-    letter-spacing: 0.03rem;
-    font-size: 1.1rem;
-    padding-top: 7rem;
-  }
