@@ -79,12 +79,14 @@
         padding: 1.875rem 3.125rem;
         font-family: "navi";
         letter-spacing: 0.063rem;
+        font-size: 5vh;
     }
     
     @media only screen and (max-width: 600px) {
         .nav-item a {
             display: block;
             padding: 0.063rem;
+            font-size: 2vh;
         }
 
         .navigation ul {
@@ -124,8 +126,15 @@
         text-align: center;
         margin: 3rem;
         font-family: "navi";
-        text-shadow: 0.125rem 0.125rem 0.25rem rgba(0,0,0,0.60)
+        text-shadow: 0.125rem 0.125rem 0.25rem rgba(0,0,0,0.60);
+        font-size:10vh;
     }
+
+    @media only screen and (max-width: 600px) {
+        h1 {
+          font-size: 4vh;
+      }
+      }
 
     .resume-container {
         display: flex;
@@ -149,7 +158,14 @@
         letter-spacing: 0.063rem;
         text-transform: uppercase;
         margin: 1rem 0rem 0rem 0rem;
+        font-size: 2.2vh;
     }
+
+    @media only screen and (max-width: 600px) {
+        .resume-container h2, h3, h4, h5{
+          font-size: 1.5vh;
+      }
+      }
 
     .resume-container p {
         font-family: "Avenir", "Arial";
@@ -157,7 +173,14 @@
         line-height: 1.8rem;
         letter-spacing: 0.063rem;
         margin: 0.063rem 0;
+        font-size: 2.2vh;
     }
+
+    @media only screen and (max-width: 600px) {
+        .resume-container p {
+          font-size: 1.5vh;
+      }
+      }
 
     .resume-list ul {
       list-style-type: disc;
@@ -171,6 +194,13 @@
   .resume-list li {
       margin: 0rem 0rem 0rem 3rem;
       line-height: 1.8rem;
+      font-size: 2.2vh;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .resume-list li {
+      font-size: 1.5vh;
+  }
   }
     
 .download {
