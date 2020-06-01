@@ -3,299 +3,296 @@
    License: none (public domain)
     CSS RESET for browsers*/
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-* {
-    box-sizing: border-box;
-    margin: 0rem;
-    padding: 0rem;
-}
-
-body {
-    font-family: "Avenir", "Arial";
-    background: #fff;
-    color: black;
-}
-
-/* Navigation Bar */
-a:link, a:visited {
-    color: black;
-    padding: 1.875rem 3.125rem;
-    text-decoration: none;
-  }
-  
-  a:hover, a:active {
-    color: #005f29;
-  }
-
-  ul {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    list-style-type: none;
-    margin: 0rem;
-    padding: 1.875rem 3.125rem;
-    font-family: "navi";
-    font-size: 2.5rem;
-    letter-spacing: 0.063rem;
-}
-
-@media only screen and (max-width: 600px) {
-  .nav-item a {
-    display: block;
-    padding: 0.063rem;
-}
-
-  ul {
-    position: static;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    list-style-type: none;
-    font-family: "navi";
-    letter-spacing: 0.063rem;
-    width: 100%;
-    line-height: 2rem;
-  }
-}
-
-p { 
-    margin: 0.5rem 0rem;
-}
-
-/* Fonts */
-@font-face {
-    font-family: "boosie";
-    src: url(./Fonts/moniquescript-regular-webfont.woff);
-}
-
-@font-face {
-    font-family: "navi";
-    src: url(./Fonts/northrow-webfont.woff);
-}
-
-@font-face {
-  font-family: "Avenir Light" "Avenir";
-  src: url(./Fonts/avenir.woff);
-}
-
-/* Splashpage */
-.showcase-container {
-    position: relative;
-    width: 100%;
-    height: 85vh;
-    background: url('whitelogo.png') no-repeat center center/cover; 
-    background-size: contain;
-    margin-bottom: 8.5rem;
-  }
-
-  @media only screen and (max-width: 600px) {
-    .showcase-container {
-      position: relative;
-      width: 100%;
-      height: 50vh;
-      background: url('whitelogo.png') no-repeat center center/cover; 
-      background-size: contain;
-      margin-bottom: 8.5rem;
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed, 
+    figure, figcaption, footer, header, hgroup, 
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
     }
-  }
-
-  .showcase-text {
-      position: absolute;
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-      top: 68%;
-      left: 38%;
-  }
-
-  .showcase-text h1 {
-      font-family: "Avenir", "Arial";
-      color: #C5C5C4;
-      font-size: 4.688rem;
-      line-height: 1.25;
-      margin: 0 0 2rem;
-      text-shadow: 0.188rem 0.188rem 0.25rem rgba(0,0,0,0.65);
-      letter-spacing: 0.188rem;
-  }
-
-  .showcase-text h2 {
-    font-family: "boosie";
-    color:black;
-    font-size: 3.125rem;
-    line-height: 1.25;
-    margin: 0 0 2rem;
-    text-shadow: 0.125rem 0.125rem 0.25rem rgba(0,0,0,0.65);
-  }
-
-  .tagline-container {
-      background: #122119;
-      padding: 6rem 0rem;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-  }
-
-  .tagline-container h3 {
-      font-family: "Avenir", "Arial";
-      font-size: 3.75rem;
-      color: white; 
-      text-align: center;
-      line-height: 1.25;
-      letter-spacing: 0.188rem;
-      text-shadow: 0.125rem 0.125rem 0.25rem rgba(0,0,0,0.65);
-  }
-
-  .contact-container {
-    background: url('forestbg.jpg') no-repeat; 
-    background-size: cover;
-      padding-top: 6rem;
-      padding-bottom: 6rem;
-      border-bottom: 0.188rem;
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-  }
-
-  .contact-container h4 {
-      font-family: "navi";
-      color: #000; 
-      font-size: 5rem;
-      text-shadow: 0.125rem 0.125rem 0.25rem rgba(0,0,0,0.65);
-      line-height: 1.25;
-      margin: 0 0 2rem;
-  }
-
-  .contact-container p {
-      font-family: "Avenir", "Arial";
-      font-size: 2rem;
-      line-height: 1.50;
-      margin: 0 0 2.5rem;
-  }
-  
-  .form-container {
-    max-width: 43.75rem;
-    width: 100%;
-    margin: auto;
-    position: relative;
-  }
-  
-  #contact input[type="text"],
-  #contact input[type="email"],
-  #contact input[type="tel"],
-  #contact textarea,
-  #contact button[type="submit"] {
-    font-size: 1rem;
-    font-family: "Avenir", "Arial";
-    color: #000;; 
-    width: 100%;
-    border: 0.063rem rgba(255,255,255,0.9);
-    background: #fefefe;
-    margin: 0 0 1.5rem;
-    padding: 1rem;
-    box-shadow: 0rem 0.125rem 0.625rem 0.063rem rgba(0,0,0,0.40);
-  }
-  
-  #contact {
-    background-color: rgba(255,255,255,0.6);
-    padding: 4rem 1.5rem;
-    margin: 0rem;
-    box-shadow: 0rem 0.125rem 0.625rem 0.063rem rgba(0,0,0,0.45);
-  }
-  
-  fieldset {
-    max-width: 90%;
-    margin: auto;
-  }
-
-  #contact textarea {
-      padding-bottom: 6rem;
-      background:#fefefe;
-  }
-  
-  #contact button[type="submit"] {
-    font-family: "navi";
-    width: 100%;
-    border: none;
-    background:#fefefe;
-    color: #000;
-    margin: 0 0 1rem;
-    padding: 0.3rem;
-    font-size: 2rem;
-  }
-  
-  
-  #contact button[type="submit"]:active {
-    box-shadow: inset 0 0.063rem 0.188rem rgba(0, 0, 0, 0.5);
-  }
-  
-  #contact input:focus,
-  #contact textarea:focus {
-    outline: 0;
-    border: 0.02rem solid #fff;
-  }
-  
-  ::-webkit-input-placeholder {
-    color: #000;
-  }
-  
-  :-moz-placeholder {
-    color: #000;
-  }
-  
-  ::-moz-placeholder {
-    color: #000;
-  }
-  
-  :-ms-input-placeholder {
-    color: #000;
-  }
-
-  .footer {
-    text-align: center;
-    letter-spacing: 0.03rem;
-    font-size: 1.1rem;
-    padding-top: 7rem;
-  }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure, 
+    footer, header, hgroup, menu, nav, section {
+      display: block;
+    }
+    body {
+      line-height: 1;
+    }
+    ol, ul {
+      list-style: none;
+    }
+    blockquote, q {
+      quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+      content: '';
+      content: none;
+    }
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
+    
+    * {
+        box-sizing: border-box;
+        margin: 0rem;
+        padding: 0rem;
+    }
+    
+    body {
+        font-family: "Avenir Light", "Arial"; 
+        background: #fff;
+        color: black;
+    }
+    
+    /* Navigation Bar */
+    a:link, a:visited {
+        color: black;
+        padding: 1.875rem 3.125rem;
+        text-decoration: none;
+      }
+      
+      a:hover, a:active {
+        color: #005f29;
+      }
+    
+      ul {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        list-style-type: none;
+        margin: 0rem;
+        padding: 1.875rem 3.125rem;
+        font-family: "navi";
+        font-size: 2.5rem;
+        letter-spacing: 0.063rem;
+    }
+    
+    @media only screen and (max-width: 600px) {
+      .nav-item a {
+        display: block;
+        padding: 0.063rem;
+    }
+    
+      ul {
+        position: static;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        list-style-type: none;
+        font-family: "navi";
+        letter-spacing: 0.063rem;
+        width: 100%;
+        line-height: 2rem;
+      }
+    }
+    
+    p { 
+        margin: 0.5rem 0rem;
+    }
+    
+    /* Fonts */
+    @font-face {
+        font-family: "boosie";
+        src: url(./Fonts/moniquescript-regular-webfont.woff);
+    }
+    
+    @font-face {
+        font-family: "navi";
+        src: url(./Fonts/northrow-webfont.woff);
+    }
+    
+    @font-face {
+      font-family: "Avenir Light" "Avenir";
+      src: url(./Fonts/avenir.woff);
+    }
+    
+    /* Splashpage */
+    .showcase-container {
+        position: relative;
+        width: 100%;
+        height: 85vh;
+        background: url('whitelogo.png') no-repeat center center/cover; 
+        background-size: contain;
+        margin-bottom: 8.5rem;
+      }
+    
+      @media only screen and (max-width: 600px) {
+        .showcase-container {
+          position: relative;
+          width: 100%;
+          height: 50vh;
+          background: url('whitelogo.png') no-repeat center center/cover; 
+          background-size: contain;
+          margin-bottom: 8.5rem;
+        }
+      }
+    
+      .showcase-text {
+          position: absolute;
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          top: 68%;
+          left: 38%;
+      }
+    
+      .showcase-text h1 {
+          font-family: "Avenir", "Arial";
+          color: #C5C5C4;
+          font-size: 4.688rem;
+          line-height: 1.25;
+          margin: 0 0 2rem;
+          text-shadow: 0.188rem 0.188rem 0.25rem rgba(0,0,0,0.65);
+          letter-spacing: 0.188rem;
+      }
+    
+      .showcase-text h2 {
+        font-family: "boosie";
+        color:black;
+        font-size: 3.125rem;
+        line-height: 1.25;
+        margin: 0 0 2rem;
+        text-shadow: 0.125rem 0.125rem 0.25rem rgba(0,0,0,0.65);
+      }
+    
+      .tagline-container {
+          background: #122119;
+          padding: 6rem 0rem;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+      }
+    
+      .tagline-container h3 {
+          font-family: "Avenir", "Arial";
+          font-size: 3.75rem;
+          color: white; 
+          text-align: center;
+          line-height: 1.25;
+          letter-spacing: 0.188rem;
+          text-shadow: 0.125rem 0.125rem 0.25rem rgba(0,0,0,0.65);
+      }
+    
+      .contact-container {
+        background: url('forestbg.jpg') no-repeat; 
+        background-size: cover;
+          padding-top: 6rem;
+          padding-bottom: 4rem;
+          border-bottom: 0.188rem;
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+      }
+    
+      .contact-container h4 {
+          font-family: "navi";
+          color: #000; 
+          font-size: 5rem;
+          text-shadow: 0.125rem 0.125rem 0.25rem rgba(0,0,0,0.65);
+          line-height: 1.25;
+          margin: 0 0 2rem;
+      }
+    
+      .contact-container p {
+          font-family: "Avenir", "Arial";
+          font-size: 2rem;
+          line-height: 1.50;
+          margin: 0 0 2.5rem;
+      }
+      
+      .form-container {
+        max-width: 43.75rem;
+        width: 100%;
+        margin: auto;
+        position: relative;
+      }
+      
+      #contact input[type="text"],
+      #contact input[type="email"],
+      #contact input[type="tel"],
+      #contact textarea,
+      #contact button[type="submit"] {
+        font-size: 1rem;
+        font-family: "Avenir", "Arial";
+        color: #000;; 
+        width: 100%;
+        border: 0.063rem rgba(255,255,255,0.9);
+        background:#fefefe;
+        margin: 0 0 1.5rem;
+        padding: 1rem;
+        box-shadow: 0rem 0.125rem 0.625rem 0.063rem rgba(0,0,0,0.40);
+      }
+      
+      #contact {
+        padding: 1rem 1.5rem;
+        margin: 0rem;
+      }
+      
+      fieldset {
+        max-width: 90%;
+        margin: auto;
+      }
+    
+      #contact textarea {
+          padding-bottom: 6rem;
+          background:#fefefe;
+      }
+      
+      #contact button[type="submit"] {
+        font-family: "navi";
+        width: 100%;
+        border: none;
+        background:#fefefe;
+        color: #000;
+        margin: 0 0 1rem;
+        padding: 0.3rem;
+        font-size: 2rem;
+      }
+      
+      
+      #contact button[type="submit"]:active {
+        box-shadow: inset 0 0.063rem 0.188rem rgba(0, 0, 0, 0.5);
+      }
+      
+      #contact input:focus,
+      #contact textarea:focus {
+        outline: 0;
+        border: 0.02rem solid #fff;
+      }
+      
+      ::-webkit-input-placeholder {
+        color: #000;
+      }
+      
+      :-moz-placeholder {
+        color: #000;
+      }
+      
+      ::-moz-placeholder {
+        color: #000;
+      }
+      
+      :-ms-input-placeholder {
+        color: #000;
+      }
+    
+      .footer p {
+        color: #fff;
+        padding-top: 4rem;
+        margin-bottom: 1rem;
+      }
