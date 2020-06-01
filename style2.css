@@ -97,7 +97,15 @@
           letter-spacing: 0.063rem;
           width: 100%;
           line-height: 2rem;
+          font-size:5vh
         }
+      }
+
+      @media only screen and (max-width: 600px) {
+        .nav-item a {
+          display: block;
+          padding: 0.063rem;
+          font-size: 2vh;
       }
 
 p { 
@@ -124,20 +132,27 @@ h1 {
     text-align: center;
     margin: 3rem;
     font-family: "navi";
-    text-shadow: 0.125rem 0.125rem 0.25rem rgba(0,0,0,0.40)
+    text-shadow: 0.125rem 0.125rem 0.25rem rgba(0,0,0,0.40);
+    font-size:8vh;
 }
+
+@media only screen and (max-width: 600px) {
+    h1 {
+      font-size: 4vh;
+  }
+  }
 
 .about-container {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: left;
-    margin: 3rem 7rem;
+    margin: 1rem 7rem;
 }
 
 @media only screen and (max-width: 600px) {
     .about-container {
-        margin: 2rem;
+        margin: 1rem 1rem;
     }
   }
 
@@ -147,5 +162,13 @@ h1 {
     text-align: justify;
     line-height: 1.5;
     letter-spacing: 0.063rem;;
-    margin: 3.5rem;
+    margin: 1rem 4rem;
+    font-size: 2.2vh;
 }
+
+@media only screen and (max-width: 600px) {
+    .about-container p {
+    margin: 1rem 2rem;
+      font-size: 1.5vh;
+  }
+  }
