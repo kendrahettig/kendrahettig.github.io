@@ -129,20 +129,16 @@ h1 {
 }
 
 .about-container {
-    background: rgba(255,255,255,0.6);
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: left;
     margin: 3rem 7rem;
-    box-shadow: 0rem 0.125rem 0.625rem 0.063rem rgba(0,0,0,0.45);
 }
 
 @media only screen and (max-width: 600px) {
     .about-container {
         margin: 2rem;
-        background: rgba(255,255,255,0.1);
-        box-shadow: 0rem 0.125rem 0.625rem 0.063rem rgba(0,0,0,0.45);
     }
   }
 
