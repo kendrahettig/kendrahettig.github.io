@@ -54,11 +54,11 @@
     }
     
     body {
-        font-family: "Avenir", "Arial";
+        font-family: "Avenir Light", "Arial"; 
         background: #fff;
         color: black;
     }
-
+    
     /* Navigation Bar */
     a:link, a:visited {
         color: black;
@@ -79,67 +79,61 @@
         padding: 1.875rem 3.125rem;
         font-family: "navi";
         letter-spacing: 0.063rem;
+        font-size:5vh
     }
     
     @media only screen and (max-width: 600px) {
-        .nav-item a {
-            display: block;
-            padding: 0.063rem;
-        }
-
-        ul {
-          position: static;
-          display: block;
-          flex-direction: column;
-          justify-content: center;
-          list-style-type: none;
-          font-family: "navi";
-          letter-spacing: 0.063rem;
-          width: 100%;
-          line-height: 2rem;
-          font-size:5vh
-        }
+      .nav-item a {
+        display: block;
+        padding: 0.063rem;
+        font-size: 2vh;
+    }
+    
+      ul {
+        position: static;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        list-style-type: none;
+        font-family: "navi";
+        letter-spacing: 0.063rem;
+        width: 100%;
+        line-height: 2rem;
       }
-
-      @media only screen and (max-width: 600px) {
-        .nav-item a {
-          display: block;
-          padding: 0.063rem;
-          font-size: 2vh;
-      }
-
-p { 
-    margin: 0.5rem 0rem;
-}
-
-/* Fonts */
-@font-face {
-    font-family: "boosie";
-    src: url(./Fonts/moniquescript-regular-webfont.woff);
-}
-
-@font-face {
-    font-family: "navi";
-    src: url(./Fonts/northrow-webfont.woff);
-}
-
-@font-face {
-    font-family: "Avenir Light" "Avenir";
-    src: url(./Fonts/avenir.woff);
-}
-
+    }
+    
+    p { 
+        margin: 0.5rem 0rem;
+    }
+    
+    /* Fonts */
+    @font-face {
+        font-family: "boosie";
+        src: url(./Fonts/moniquescript-regular-webfont.woff);
+    }
+    
+    @font-face {
+        font-family: "navi";
+        src: url(./Fonts/northrow-webfont.woff);
+    }
+    
+    @font-face {
+      font-family: "Avenir Light" "Avenir";
+      src: url(./Fonts/avenir.woff);
+    }
+    
 h1 {
     text-align: center;
     margin: 3rem;
     font-family: "navi";
     text-shadow: 0.125rem 0.125rem 0.25rem rgba(0,0,0,0.40);
-    font-size:8vh;
+    font-size: 8vh;
 }
 
 @media only screen and (max-width: 600px) {
     h1 {
       font-size: 4vh;
-  }
+    }
   }
 
 .about-container {
@@ -169,6 +163,6 @@ h1 {
 @media only screen and (max-width: 600px) {
     .about-container p {
     margin: 1rem 2rem;
-      font-size: 1.5vh;
-  }
+    font-size: 1.5vh;
+    }
   }
