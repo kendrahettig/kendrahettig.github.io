@@ -55,8 +55,7 @@
     
     body {
         font-family: "Avenir", "Arial";
-        -webkit-font-smoothing: antialiasded;
-        background: #F3F5F8;
+        background: #fff;
         color: black;
     }
     
