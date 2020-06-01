@@ -163,7 +163,7 @@
         font-family: "Avenir", "Arial";
         font-size: 3rem;
         color: black;
-        line-height: 1.5rem;
+        line-height: 1.8rem;
         letter-spacing: 0.063rem;
         margin: 0.063rem 0;
     }
@@ -180,7 +180,7 @@
   
   .resume-list li {
       margin: 0rem 0rem 0rem 3rem;
-      line-height: 1.5rem;
+      line-height: 1.8rem;
   }
     
 .download {
