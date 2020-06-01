@@ -126,7 +126,7 @@ p {
     position: relative;
     width: 100%;
     height: 85vh;
-    background: url('graylogo.png') no-repeat center center/cover; 
+    background: url('whitelogo.png') no-repeat center center/cover; 
     background-size: contain;
     margin-bottom: 8.5rem;
   }
@@ -136,7 +136,7 @@ p {
       position: relative;
       width: 100%;
       height: 50vh;
-      background: url('graylogo.png') no-repeat center center/cover; 
+      background: url('whitelogo.png') no-repeat center center/cover; 
       background-size: contain;
       margin-bottom: 8.5rem;
     }
