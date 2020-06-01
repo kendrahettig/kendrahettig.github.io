@@ -78,7 +78,6 @@
         margin: 0rem;
         padding: 1.875rem 3.125rem;
         font-family: "navi";
-        font-size: 2.5rem;
         letter-spacing: 0.063rem;
     }
     
@@ -126,7 +125,7 @@
         position: relative;
         width: 100%;
         height: 85vh;
-        background: url('whitelogo.png') no-repeat center center/cover; 
+        background: url('whitelogo2.png') no-repeat center center/cover; 
         background-size: contain;
         margin-bottom: 8.5rem;
       }
@@ -154,7 +153,6 @@
       .showcase-text h1 {
           font-family: "Avenir", "Arial";
           color: #C5C5C4;
-          font-size: 4.688rem;
           line-height: 1.25;
           margin: 0 0 2rem;
           text-shadow: 0.188rem 0.188rem 0.25rem rgba(0,0,0,0.65);
@@ -164,7 +162,6 @@
       .showcase-text h2 {
         font-family: "boosie";
         color:black;
-        font-size: 3.125rem;
         line-height: 1.25;
         margin: 0 0 2rem;
         text-shadow: 0.125rem 0.125rem 0.25rem rgba(0,0,0,0.65);
@@ -172,7 +169,7 @@
     
       .tagline-container {
           background: #122119;
-          padding: 6rem 0rem;
+          padding: 7rem 0rem;
           display: flex;
           flex-direction: row;
           justify-content: center;
@@ -180,7 +177,6 @@
     
       .tagline-container h3 {
           font-family: "Avenir", "Arial";
-          font-size: 3.75rem;
           color: white; 
           text-align: center;
           line-height: 1.25;
@@ -202,7 +198,6 @@
       .contact-container h4 {
           font-family: "navi";
           color: #000; 
-          font-size: 5rem;
           text-shadow: 0.125rem 0.125rem 0.25rem rgba(0,0,0,0.65);
           line-height: 1.25;
           margin: 0 0 2rem;
@@ -210,7 +205,6 @@
     
       .contact-container p {
           font-family: "Avenir", "Arial";
-          font-size: 2rem;
           line-height: 1.50;
           margin: 0 0 2.5rem;
       }
@@ -227,8 +221,8 @@
       #contact input[type="tel"],
       #contact textarea,
       #contact button[type="submit"] {
-        font-size: 1rem;
         font-family: "Avenir", "Arial";
+        font-size: 2.4vh;
         color: #000;; 
         width: 100%;
         border: 0.063rem rgba(255,255,255,0.9);
@@ -261,7 +255,7 @@
         color: #000;
         margin: 0 0 1rem;
         padding: 0.3rem;
-        font-size: 2rem;
+        font-size: 4vh;
       }
       
       
