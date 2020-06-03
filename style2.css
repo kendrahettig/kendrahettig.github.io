@@ -166,3 +166,60 @@ h1 {
     font-size: 1.5vh;
     }
   }
+
+  footer {
+    width: 100%;
+    background-color: #000;
+    text-align: center;
+    padding: 1rem 0rem 1rem 0rem;
+  }
+
+  .footer h5 {
+    font-size: 2.5vh;
+    font-family: "Avenir", "Arial";
+    color: #fff;
+    line-height: 1.5;
+  }
+
+  #lab_social_icon_footer a {
+    font-size: 4vh;
+    color: #fff;
+    display: inline-block;
+    justify-content: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  
+  #lab_social_icon_footer .social:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+  }
+  
+  #lab_social_icon_footer .social {
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+  }
+
+  #lab_social_icon_footer .social:hover {
+    color: #005f29;
+  }
+
+  @media only screen and (max-width: 600px) {
+  .footer h5 {
+    font-size: 1.5vh;
+    font-family: "Avenir", "Arial";
+    color: #fff;
+    line-height: 1.5;
+  }
+  }
+
+  @media only screen and (max-width: 600px) {
+  #lab_social_icon_footer a {
+    font-size: 2vh;
+  }
+}
