@@ -54,7 +54,7 @@
     }
     
     body {
-        font-family: "Avenir", "Arial";
+        font-family: "Glacial";
         background: #fff;
         color: black;
     }
@@ -62,7 +62,7 @@
     /* Navigation Bar */
     a:link, a:visited {
         color: black;
-        padding: 1.875rem 3.125rem;
+        padding: 1rem;
         text-decoration: none;
        }
       
@@ -76,10 +76,10 @@
         text-align: center;
         list-style-type: none;
         margin: 0rem;
-        padding: 1.875rem 3.125rem;
-        font-family: "navi";
+        padding: 1.875rem;
+        font-family: "Glacial";
         letter-spacing: 0.063rem;
-        font-size: 5vh;
+        font-size: 3vh;
     }
     
     @media only screen and (max-width: 600px) {
@@ -95,7 +95,7 @@
           flex-direction: column;
           justify-content: center;
           list-style-type: none;
-          font-family: "navi";
+          font-family: "Glacial";
           letter-spacing: 0.063rem;
           width: 100%;
           line-height: 2rem;
@@ -108,26 +108,25 @@
     
     /* Fonts */
     @font-face {
-        font-family: "boosie";
-        src: url(./Fonts/moniquescript-regular-webfont.woff);
-    }
-    
-    @font-face {
-        font-family: "navi";
-        src: url(./Fonts/northrow-webfont.woff);
-    }
+      font-family: "Glacial";
+      src: url(./Fonts/GlacialIndifference-Regular.woff);
+      }
 
-    @font-face {
-        font-family: "Avenir Light" "Avenir";
-        src: url(./Fonts/avenir.woff);
-    }
+      @font-face {
+        font-family: "League";
+        src: url(./Fonts/leaguespartan-bold.woff);
+        }
+
+        @font-face {
+          font-family: "Glacial-bold";
+          src: url(./Fonts/glacial-indifference.bold.woff);
+          }
 
     h1 {
         text-align: center;
         margin: 3rem;
-        font-family: "navi";
-        text-shadow: 0.125rem 0.125rem 0.25rem rgba(0,0,0,0.60);
-        font-size:8vh;
+        font-family: "League";
+        font-size: 6vh;
     }
 
     @media only screen and (max-width: 600px) {
@@ -141,24 +140,23 @@
         flex-direction: column;
         justify-content: left;
         text-align: left;
-        margin: 1rem 10rem;
+        margin: 1rem 10rem 1rem;
     }
 
     @media only screen and (max-width: 600px) {
         .resume-container {
-            margin: 2rem;
+          margin: 1rem 3rem;
         }
       }    
     
     .resume-container h2, h3, h4, h5 {
-        font-family: "Avenir", "Arial";
-        font-weight: 600;
+        font-family: "League";
         color: black;
         line-height: 0rem;
         letter-spacing: 0.063rem;
-        text-transform: uppercase;
         margin: 1rem 0rem 0rem 0rem;
-        font-size: 2.2vh;
+        font-size: 2.5vh;
+        font-weight: 900;
     }
 
     @media only screen and (max-width: 600px) {
@@ -168,7 +166,7 @@
       }
 
     .resume-container p {
-        font-family: "Avenir", "Arial";
+        font-family: "Glacial";
         color: black;
         line-height: 1.8rem;
         letter-spacing: 0.063rem;
@@ -187,7 +185,7 @@
       margin: 0rem;
       padding: 0rem;
       text-align: left;
-      font-family: "Avenir", "Arial";
+      font-family: "Glacial";
       letter-spacing: 0.063rem;
   }
   
@@ -204,8 +202,8 @@
   }
     
 .download {
+  font-family: "League";
     text-align: center;
-    font-weight: 600;
     padding-bottom: 2rem;
 }
 
@@ -218,7 +216,7 @@ footer {
 
   .footer h6 {
     font-size: 2.5vh;
-    font-family: "Avenir", "Arial";
+    font-family: "Glacial";
     color: #fff;
     line-height: 1.5;
   }
@@ -248,13 +246,13 @@ footer {
   }
 
   #lab_social_icon_footer .social:hover {
-    color: #005f29;
+    color: #fff;
   }
 
   @media only screen and (max-width: 600px) {
   .footer h5 {
     font-size: 1.5vh;
-    font-family: "Avenir", "Arial";
+    font-family: "Glacial";
     color: #fff;
     line-height: 1.5;
   }

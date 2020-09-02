@@ -54,73 +54,68 @@
     }
     
     body {
-        font-family: "Avenir Light", "Arial"; 
+        font-family: "Glacial"; 
         background: #fff;
         color: black;
     }
     
-    /* Navigation Bar */
-    a:link, a:visited {
-        color: black;
-        padding: 1.875rem 3.125rem;
-        text-decoration: none;
+        /* Navigation Bar */
+        a:link, a:visited {
+          color: black;
+          padding: 1rem;
+          text-decoration: none;
+        }
+        
+        a:hover, a:active {
+          color: #005f29;
+        }
+      
+        ul {
+          display: flex;
+          justify-content: center;
+          text-align: center;
+          list-style-type: none;
+          margin: 0rem;
+          padding: 1.875rem;
+          font-family: "Glacial";
+          letter-spacing: 0.063rem;
+          font-size: 3vh
       }
       
-      a:hover, a:active {
-        color: #005f29;
+      @media only screen and (max-width: 600px) {
+        .navigation a {
+          display: block;
+          padding: 0.063rem;
+          font-size: 2vh;
       }
-    
-      ul {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        list-style-type: none;
-        margin: 0rem;
-        padding: 1.875rem 3.125rem;
-        font-family: "navi";
-        letter-spacing: 0.063rem;
-        font-size:5vh
-    }
-    
-    @media only screen and (max-width: 600px) {
-      .nav-item a {
-        display: block;
-        padding: 0.063rem;
-        font-size: 2vh;
-    }
-    
-      ul {
-        position: static;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        list-style-type: none;
-        font-family: "navi";
-        letter-spacing: 0.063rem;
-        width: 100%;
-        line-height: 2rem;
+      
+        ul {
+          position: static;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          list-style-type: none;
+          font-family: "Glacial";
+          letter-spacing: 0.063rem;
+          width: 100%;
+          line-height: 2rem;
+        }
       }
-    }
-    
-    p { 
-        margin: 0.5rem 0rem;
-    }
-    
+      
+      p { 
+          margin: 0.5rem 0rem;
+      }
+
     /* Fonts */
     @font-face {
-        font-family: "boosie";
-        src: url(./Fonts/moniquescript-regular-webfont.woff);
-    }
-    
-    @font-face {
-        font-family: "navi";
-        src: url(./Fonts/northrow-webfont.woff);
-    }
-    
-    @font-face {
-      font-family: "Avenir Light" "Avenir";
-      src: url(./Fonts/avenir.woff);
-    }
+      font-family: "Glacial";
+      src: url(./Fonts/GlacialIndifference-Regular.woff);
+      }
+
+      @font-face {
+        font-family: "League";
+        src: url(./Fonts/leaguespartan-bold.woff);
+        }
     
     /* Splashpage */
     .showcase-container {
@@ -142,115 +137,65 @@
           margin-bottom: 8.5rem;
         }
       }
-    
+  
       .showcase-text {
-          position: absolute;
-          display: flex;
-          flex-direction: column;
-          text-align: center;
-          top: 68%;
-          left: 38%;
+        position: absolute;
+        text-align: center;
+        top: 88%;
+        width: 100%;
       }
-    
+
       .showcase-text h1 {
-          font-family: "Avenir", "Arial";
-          color: #C5C5C4;
-          line-height: 1.25;
-          margin: 0 0 2rem;
-          text-shadow: 0.188rem 0.188rem 0.25rem rgba(0,0,0,0.65);
-          letter-spacing: 0.188rem;
-          font-size:10vh
-      }
-    
-      .showcase-text h2 {
-        font-family: "boosie";
-        color:black;
-        line-height: 1.25;
-        margin: 0 0 2rem;
-        text-shadow: 0.125rem 0.125rem 0.25rem rgba(0,0,0,0.65);
-        font-size:6.5vh
+        font-family: "Glacial";
+        display: inline-block;
+        color: #000;
+        font-size: 8vh;
+        margin: 0rem 1.5rem;
       }
     
       @media only screen and (max-width: 600px) {
         .showcase-text h1 {
-          font-size: 3vh;
+          font-size: 4.5vh;
       }
     }
     
-    @media only screen and (max-width: 600px) {
-      .showcase-text h2 {
-        font-size: 2.5vh;
-    }
-    }
-    
       .tagline-container {
-          background: #122119;
+          background: #061907;
           padding: 7rem 0rem;
           display: flex;
           flex-direction: row;
           justify-content: center;
       }
     
-      .tagline-container h3 {
-          font-family: "Avenir", "Arial";
+      .tagline-container h2 {
+          font-family: "Glacial";
           color: white; 
           text-align: center;
           line-height: 1.25;
           letter-spacing: 0.188rem;
-          text-shadow: 0.125rem 0.125rem 0.25rem rgba(0,0,0,0.65);
-          font-size:6vh
+          font-size: 5vh;
       }
     
       @media only screen and (max-width: 600px) {
-        .tagline-container h3 {
+        .tagline-container h2 {
           font-size: 2.5vh;
       }
       }
     
       .contact-container {
-        background: url('bg.png') no-repeat; 
-        background-size: cover;
-          padding-top: 6rem;
+        background: #fff;
+          padding-top: 4rem;
           padding-bottom: 4rem;
           border-bottom: 0.188rem;
           display: flex;
           flex-direction: column;
-          text-align: center;
-      }
-    
-      .contact-container h4 {
-          font-family: "navi";
-          color: #000; 
-          text-shadow: 0.125rem 0.125rem 0.25rem rgba(0,0,0,0.65);
-          line-height: 1.25;
-          margin: 0 0 2rem;
-          font-size:10vh
-      }
-    
-      @media only screen and (max-width: 600px) {
-        .contact-container h4 {
-          font-size: 3vh;
-      }
-      }
-    
-      .contact-container p {
-          font-family: "Avenir", "Arial";
-          line-height: 1.50;
-          margin: 0 0 2.5rem;
-          font-size: 3vh
+          position: relative;
       }
       
-      @media only screen and (max-width: 600px) {
-        .contact-container p {
-          font-size: 1.5vh;
-      }
-      }
-    
       .form-container {
         max-width: 43.75rem;
         width: 100%;
         margin: auto;
-        position: relative;
       }
       
       @media only screen and (max-width: 600px) {
@@ -258,24 +203,40 @@
           max-width: 25rem;
           width: 100%;
           margin: auto;
-          position: relative;
         }
       }
+
+      .contact-container h3 {
+        font-family: "League";
+        color: #000; 
+        line-height: 1.25;
+        font-size: 7vh;
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+        position: absolute;
+        padding: 10rem 0rem;
+    }
+  
+    @media only screen and (max-width: 780px) {
+      .contact-container h3 {
+        font-size: 3vh;
+    }
+    }
     
       #contact input[type="text"],
       #contact input[type="email"],
       #contact input[type="tel"],
       #contact textarea,
       #contact button[type="submit"] {
-        font-family: "Avenir", "Arial";
+        font-family: "Glacial";
         font-size: 2.4vh;
         color: #000;; 
         width: 100%;
-        border: 0.063rem rgba(255,255,255,0.9);
+        border: 0.063rem #000;
         background:#fefefe;
         margin: 0 0 1.5rem;
         padding: 1rem;
-        box-shadow: 0rem 0.125rem 0.625rem 0.063rem rgba(0,0,0,0.40);
+        box-shadow: 0rem 0.125rem 0.625rem 0.063rem rgba(0,0,0,0.1);
       }
     
       @media only screen and (max-width: 600px) {
@@ -304,24 +265,24 @@
       }
       
       #contact button[type="submit"] {
-        font-family: "navi";
+        font-family: "Glacial";
         width: 100%;
         border: none;
         background:#fefefe;
         color: #000;
         margin: 0 0 1rem;
-        padding: 0.3rem;
-        font-size: 4vh;
+        padding: 0.5rem;
+        font-size: 2.4vh;
       }
     
       @media only screen and (max-width: 600px) {
         #contact button[type="submit"] {
-          font-size: 3vh;
+          font-size: 1.5vh;
           }
         }
       
       #contact button[type="submit"]:active {
-        box-shadow: inset 0 0.063rem 0.188rem rgba(0, 0, 0, 0.5);
+        box-shadow: inset 0 0.063rem 0.188rem rgba(0, 0, 0, 0.2);
       }
       
       #contact input:focus,
@@ -355,7 +316,7 @@
     
       .footer h5 {
         font-size: 2.5vh;
-        font-family: "Avenir", "Arial";
+        font-family: "Glacial";
         color: #fff;
         line-height: 1.5;
       }
@@ -385,13 +346,13 @@
       }
     
       #lab_social_icon_footer .social:hover {
-        color: #005f29;
+        color: #fff;
       }
     
       @media only screen and (max-width: 600px) {
       .footer h5 {
         font-size: 1.5vh;
-        font-family: "Avenir", "Arial";
+        font-family: "Glacial";
         color: #fff;
         line-height: 1.5;
       }
