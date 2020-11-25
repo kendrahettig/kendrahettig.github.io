@@ -116,11 +116,16 @@
         font-family: "League";
         src: url(./Fonts/leaguespartan-bold.woff);
         }
+
+        @font-face {
+          font-family: "Gothic";
+          src: url(./Fonts/cgothic.woff);
+          }
     
 h1 {
     text-align: center;
     margin: 3rem;
-    font-family: "League";
+    font-family: "Gothic";
     font-size: 6vh;
 }
 

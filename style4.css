@@ -111,21 +111,16 @@
     font-family: "Glacial";
     src: url(./Fonts/GlacialIndifference-Regular.woff);
     }
-
-    @font-face {
-      font-family: "League";
-      src: url(./Fonts/leaguespartan-bold.woff);
-      }
-
-      @font-face {
-        font-family: "Glacial-bold";
-        src: url(./Fonts/glacial-indifference.bold.woff);
-        }
+    
+        @font-face {
+          font-family: "Gothic";
+          src: url(./Fonts/cgothic.woff);
+          }
 
 h1 {
     text-align: center;
     margin: 3rem;
-    font-family: "League";
+    font-family: "Gothic";
     font-size: 6vh;
 }
 
@@ -151,16 +146,17 @@ h1 {
   }
 
 .portfolio-container h2 {
-    font-family: "League";
+    font-family: "Gothic";
     color: black;
     line-height: 1.25rem;
     letter-spacing: 0.063rem;
     font-size: 2.4vh;
     margin: 1rem 0rem 0rem 0rem;
+    font-weight: 550;
 }
 
 .portfolio-container h3 {
-    font-family: "League";
+    font-family: "Gothic";
     color: black;
     line-height: 1.25rem;
     letter-spacing: 0.063rem;

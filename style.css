@@ -116,6 +116,11 @@
         font-family: "League";
         src: url(./Fonts/leaguespartan-bold.woff);
         }
+
+        @font-face {
+          font-family: "Gothic";
+          src: url(./Fonts/cgothic.woff);
+          }
     
     /* Splashpage */
     .showcase-container {
@@ -207,7 +212,7 @@
       }
 
       .contact-container h3 {
-        font-family: "League";
+        font-family: "Gothic";
         color: #000; 
         line-height: 1.25;
         font-size: 7vh;
