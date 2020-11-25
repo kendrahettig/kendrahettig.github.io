@@ -164,154 +164,32 @@
       }
     }
     
-      .tagline-container {
-          background: #061907;
-          padding: 7rem 0rem;
-          display: flex;
-          flex-direction: row;
-          justify-content: center;
-      }
-    
-      .tagline-container h2 {
-          font-family: "Glacial";
-          color: white; 
-          text-align: center;
-          line-height: 1.25;
-          letter-spacing: 0.188rem;
-          font-size: 5vh;
-      }
-    
-      @media only screen and (max-width: 600px) {
-        .tagline-container h2 {
-          font-size: 2.5vh;
-      }
-      }
-    
-      .contact-container {
-        background: #fff;
-          padding-top: 4rem;
-          padding-bottom: 4rem;
-          border-bottom: 0.188rem;
-          display: flex;
-          flex-direction: column;
-          position: relative;
-      }
-      
-      .form-container {
-        max-width: 43.75rem;
-        width: 100%;
-        margin: auto;
-      }
-      
-      @media only screen and (max-width: 600px) {
-        .form-container {
-          max-width: 25rem;
-          width: 100%;
-          margin: auto;
-        }
-      }
+    .tagline-container {
+      background: #ececec;
+      padding: 7rem 0rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+  }
 
-      .contact-container h3 {
-        font-family: "Gothic";
-        color: #000; 
-        line-height: 1.25;
-        font-size: 7vh;
-        writing-mode: vertical-rl;
-        text-orientation: mixed;
-        position: absolute;
-        padding: 10rem 0rem;
-    }
+
+  .tagline-container h2 {
+    font-family: "Glacial";
+    color: #000; 
+    text-align: center;
+    line-height: 1.25;
+    letter-spacing: 0.188rem;
+    font-size: 6vh;
+}
+
+
+  @media only screen and (max-width: 600px) {
+    .tagline-container h2 {
+      font-size: 3vh;
+  }
+  }
+
   
-    @media only screen and (max-width: 780px) {
-      .contact-container h3 {
-        font-size: 3vh;
-    }
-    }
-    
-      #contact input[type="text"],
-      #contact input[type="email"],
-      #contact input[type="tel"],
-      #contact textarea,
-      #contact button[type="submit"] {
-        font-family: "Glacial";
-        font-size: 2.4vh;
-        color: #000;; 
-        width: 100%;
-        border: 0.063rem #000;
-        background:#fefefe;
-        margin: 0 0 1.5rem;
-        padding: 1rem;
-        box-shadow: 0rem 0.125rem 0.625rem 0.063rem rgba(0,0,0,0.1);
-      }
-    
-      @media only screen and (max-width: 600px) {
-      #contact input[type="text"],
-      #contact input[type="email"],
-      #contact input[type="tel"],
-      #contact textarea,
-      #contact button[type="submit"] {
-        font-size: 1.5vh;
-        }
-      }
-      
-      #contact {
-        padding: 1rem 1.5rem;
-        margin: 0rem;
-      }
-      
-      fieldset {
-        max-width: 90%;
-        margin: auto;
-      }
-    
-      #contact textarea {
-          padding-bottom: 6rem;
-          background:#fefefe;
-      }
-      
-      #contact button[type="submit"] {
-        font-family: "Glacial";
-        width: 100%;
-        border: none;
-        background:#fefefe;
-        color: #000;
-        margin: 0 0 1rem;
-        padding: 0.5rem;
-        font-size: 2.4vh;
-      }
-    
-      @media only screen and (max-width: 600px) {
-        #contact button[type="submit"] {
-          font-size: 1.5vh;
-          }
-        }
-      
-      #contact button[type="submit"]:active {
-        box-shadow: inset 0 0.063rem 0.188rem rgba(0, 0, 0, 0.2);
-      }
-      
-      #contact input:focus,
-      #contact textarea:focus {
-        outline: 0;
-        border: 0.02rem solid #fff;
-      }
-      
-      ::-webkit-input-placeholder {
-        color: #000;
-      }
-      
-      :-moz-placeholder {
-        color: #000;
-      }
-      
-      ::-moz-placeholder {
-        color: #000;
-      }
-      
-      :-ms-input-placeholder {
-        color: #000;
-      }
-
       footer {
         width: 100%;
         background-color: #000;
