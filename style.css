@@ -121,6 +121,11 @@
           font-family: "Gothic";
           src: url(./Fonts/cgothic.woff);
           }
+
+          @font-face {
+            font-family: "RGothic";
+            src: url(./Fonts/reggothic.woff);
+            }
     
     /* Splashpage */
     .showcase-container {
