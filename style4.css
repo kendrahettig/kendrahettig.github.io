@@ -60,13 +60,13 @@
     }
 
     /* Navigation Bar */
-    a:link, a:visited {
+    .navigation a:link, a:visited {
       color: black;
       padding: 1rem;
       text-decoration: none;
      }
     
-    a:hover, a:active {
+     .navigation a:hover, a:active {
       color: #005f29;
     }
   
