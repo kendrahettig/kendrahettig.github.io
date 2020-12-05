@@ -236,8 +236,7 @@ h1 {
     color: #fff;
     display: inline-block;
     justify-content: center;
-    padding-right: 1rem;
-    padding-left: 1rem;
+    padding: 1rem;
   }
   
   #lab_social_icon_footer .social:hover {
