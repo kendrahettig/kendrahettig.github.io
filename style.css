@@ -67,7 +67,7 @@
         }
         
         a:hover, a:active {
-          color: #005f29;
+          color: #EBCECB;
         }
       
         ul {
@@ -170,7 +170,7 @@
     }
     
     .tagline-container {
-      background: #f5f5f5;
+      background: #EBCECB;
       padding: 7rem 0rem;
       display: flex;
       flex-direction: row;
