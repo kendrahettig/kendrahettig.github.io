@@ -191,6 +191,7 @@
   @media only screen and (max-width: 600px) {
     .tagline-container h2 {
       font-size: 3vh;
+      padding: 2rem;
   }
   }
 
