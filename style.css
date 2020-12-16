@@ -54,7 +54,7 @@
     }
     
     body {
-        font-family: "Glacial"; 
+        font-family: "Glacial", Arial, Sans-Serif; 
         background: #fff;
         color: black;
     }
@@ -77,7 +77,7 @@
           list-style-type: none;
           margin: 0rem;
           padding: 1.875rem;
-          font-family: "Glacial";
+          font-family: "Glacial", Arial, Sans-Serif;
           letter-spacing: 0.063rem;
           font-size: 3vh
       }
@@ -95,7 +95,7 @@
           flex-direction: column;
           justify-content: center;
           list-style-type: none;
-          font-family: "Glacial";
+          font-family: "Glacial", Arial, Sans-Serif;
           letter-spacing: 0.063rem;
           width: 100%;
           line-height: 2rem;
@@ -156,7 +156,7 @@
       }
 
       .showcase-text h1 {
-        font-family: "Glacial";
+        font-family: "Glacial", Arial, Sans-Serif;
         display: inline-block;
         color: #000;
         font-size: 8vh;
@@ -179,7 +179,7 @@
 
 
   .tagline-container h2 {
-    font-family: "Glacial";
+    font-family: "Glacial", Georgia, Serif;
     color: #000; 
     text-align: center;
     line-height: 1.25;
@@ -218,7 +218,7 @@
     color: black;
     font-size: 5vh;
     overflow: hidden;
-    font-family: "RGothic";
+    font-family: "RGothic", Arial, Sans-Serif;
   }
 
   @keyframes marquee {
@@ -235,7 +235,7 @@
     
       .footer h5 {
         font-size: 2.5vh;
-        font-family: "Glacial";
+        font-family: "Glacial", Arial, Sans-Serif;
         color: #fff;
         line-height: 1.5;
       }
