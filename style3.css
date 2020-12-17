@@ -164,7 +164,7 @@
     .resume-container p {
         font-family: "Glacial", Arial, Sans-Serif;
         color: black;
-        line-height: 1.8rem;
+        line-height: 1.5rem;
         letter-spacing: 0.063rem;
         margin: 0.063rem 0;
         font-size: 2.2vh;
@@ -188,7 +188,7 @@
   
   .resume-list li {
       margin: 0rem 0rem 0rem 3rem;
-      line-height: 1.8rem;
+      line-height: 1.5rem;
       font-size: 2.2vh;
   }
 
