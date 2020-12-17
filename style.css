@@ -212,13 +212,13 @@
   }
   
   .content {
-    animation: marquee 10s linear infinite;
+    animation: marquee 25s linear infinite;
     margin: 0;
     padding: 16vh 0rem;
     color: black;
     font-size: 5vh;
     overflow: hidden;
-    font-family: "RGothic", Arial, Sans-Serif;
+    font-family: "Glacial", Arial, Sans-Serif;
   }
 
   @keyframes marquee {
