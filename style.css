@@ -67,7 +67,7 @@
         }
         
         a:hover, a:active {
-          color: #EBCECB;
+          color: #0F61FF;
         }
       
         ul {
@@ -180,7 +180,7 @@
 
   .tagline-container h2 {
     font-family: "Glacial", Georgia, Serif;
-    color: #000; 
+    color: #0F61FF; 
     text-align: center;
     line-height: 1.25;
     letter-spacing: 0.188rem;
