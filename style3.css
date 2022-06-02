@@ -152,7 +152,7 @@
     
     .resume-container h2, h3, h4, h5 {
         font-family: "Gothic", Arial, Sans-Serif;
-        color: black;
+        color: #0F61FF;
         line-height: 0rem;
         letter-spacing: 0.063rem;
         margin: 1rem 0rem 0rem 0rem;
@@ -250,7 +250,7 @@ footer {
 }
 
 #lab_social_icon_footer .social:hover {
-  color: #0F61FF;
+  color: #6f9ef7;
 }
 
 @media only screen and (max-width: 600px) {
