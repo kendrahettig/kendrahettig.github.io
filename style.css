@@ -1,0 +1,216 @@
+@font-face {
+  font-family: 'InfraRegular';
+  src: url('./Fonts/InfraRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'InfraMedium';
+  src: url('./Fonts/InfraMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "InfraRegular", Arial, Sans-Serif;
+  background: #fff;
+}
+
+slide {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  background: #fff;
+  text-align: center;
+  padding: 0 2em;
+  font-size: 2rem;
+  margin: 0;
+  letter-spacing: 1rem;
+}
+
+header {
+  background-color: #ffffff;
+  padding: 20px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 28px;
+}
+
+h1 {
+  font-size: 2em;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+h2 {
+  font-size: .8em;
+  margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 1em;
+    letter-spacing: 1px;
+    margin: 0;
+  }}
+
+  @media only screen and (max-width: 600px) {
+    h2 {
+      font-size: .4em;
+      margin: 0;
+    }}
+
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-family: "InfraRegular", Arial, Sans-Serif;
+  font-size: .8em;
+}
+
+nav ul li a:hover,
+nav ul li a:active {
+  color: #0f61ff;
+}
+
+@media only screen and (max-width: 600px) {
+  nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-family: "InfraRegular", Arial, Sans-Serif;
+    font-size: .4em;
+  }
+
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  margin: 0 auto;
+  max-width: 1140px;
+  padding: 20px 28px;
+  grid-gap: 30px;
+  align-items: stretch;
+}
+
+.card {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5); /* Adjust opacity by changing the alpha value (0.5 in this example) */
+}
+
+.card a {
+  position: relative; /* Ensure the link is on top of the overlay */
+  z-index: 1;
+}
+
+
+button {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+button a {
+  color: black;
+  text-decoration: none;
+  font-family: "InfraRegular", Arial, Sans-Serif;
+  font-size: 2em;
+}
+
+@media only screen and (max-width: 600px) {
+  button a {
+    color: black;
+    text-decoration: none;
+    font-family: "InfraRegular", Arial, Sans-Serif;
+    font-size: 1em;
+  }
+
+}
+
+button a:hover,
+button a:active {
+  color: #0f61ff;
+}
+
+.custom-btn {
+  color: #000;
+  border: none;
+  font-family: "InfraRegular", Arial, Sans-Serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  position: relative;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 230px;
+  font-size: 1.2em;
+}
+
+@media screen and (max-width: 768px) {
+  .cards {
+    grid-template-columns: 1fr; /* Display one column on small screens */
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr); /* Display two columns on larger screens */
+  }
+}
+
+
+footer {
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+  padding: 1rem 0rem 1rem 0rem;
+}
+
+.footer h3 {
+  font-size: .8em;
+  font-family: "InfraRegular", Arial, Sans-Serif;
+  color: #000;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .footer h3 {
+    font-size: .4em;
+    font-family: "InfraRegular", Arial, Sans-Serif;
+    color: #000;
+  }
+  }
