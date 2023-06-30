@@ -1,19 +1,21 @@
 @font-face {
-  font-family: 'InfraRegular';
-  src: url('./Fonts/InfraRegular.woff') format('woff');
+  font-family: 'PoppinsRegular';
+  src: url('./Fonts/Poppins-Regular.woff2') format('woff');
   font-weight: normal;
   font-style: normal;
 }
+
 
 @font-face {
-  font-family: 'InfraMedium';
-  src: url('./Fonts/InfraMedium.woff') format('woff');
+  font-family: 'PoppinsBold';
+  src: url('./Fonts/Poppins-Bold.woff2') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
+
 body {
-  font-family: "InfraRegular", Arial, Sans-Serif;
+  font-family: "PoppinsRegular", Arial, Sans-Serif;
   background: #fff;
 }
 
@@ -50,11 +52,13 @@ h1 {
   font-size: 2em;
   letter-spacing: 2px;
   margin: 0;
+  font-family: "PoppinsBold", Arial, Sans-Serif;
 }
 
 h2 {
   font-size: .8em;
   margin: 0;
+  font-family: "PoppinsRegular", Arial, Sans-Serif;;
 }
 
 @media only screen and (max-width: 600px) {
@@ -84,7 +88,7 @@ nav ul li {
 nav ul li a {
   color: black;
   text-decoration: none;
-  font-family: "InfraRegular", Arial, Sans-Serif;
+  font-family: "PoppinsRegular", Arial, Sans-Serif;
   font-size: .8em;
 }
 
@@ -97,7 +101,7 @@ nav ul li a:active {
   nav ul li a {
     color: black;
     text-decoration: none;
-    font-family: "InfraRegular", Arial, Sans-Serif;
+    font-family: "PoppinsRegular", Arial, Sans-Serif;
     font-size: .4em;
   }
 
@@ -144,7 +148,7 @@ button {
 button a {
   color: black;
   text-decoration: none;
-  font-family: "InfraRegular", Arial, Sans-Serif;
+  font-family: "PoppinsBold", Arial, Sans-Serif;
   font-size: 2em;
 }
 
@@ -152,7 +156,7 @@ button a {
   button a {
     color: black;
     text-decoration: none;
-    font-family: "InfraRegular", Arial, Sans-Serif;
+    font-family: "PoppinsBold", Arial, Sans-Serif;
     font-size: 1em;
   }
 
@@ -166,7 +170,7 @@ button a:active {
 .custom-btn {
   color: #000;
   border: none;
-  font-family: "InfraRegular", Arial, Sans-Serif;
+  font-family: "PoppinsBold", Arial, Sans-Serif;
   font-weight: 500;
   background: transparent;
   cursor: pointer;
@@ -202,7 +206,7 @@ footer {
 
 .footer h3 {
   font-size: .8em;
-  font-family: "InfraRegular", Arial, Sans-Serif;
+  font-family: "PoppinsRegular", Arial, Sans-Serif;
   color: #000;
 }
 
@@ -210,7 +214,7 @@ footer {
 @media only screen and (max-width: 600px) {
   .footer h3 {
     font-size: .4em;
-    font-family: "InfraRegular", Arial, Sans-Serif;
+    font-family: "PoppinsRegular", Arial, Sans-Serif;
     color: #000;
   }
   }
